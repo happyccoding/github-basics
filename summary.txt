@@ -1,0 +1,55 @@
+Creating a repos
+cd ~/desktop
+$ mkdir repos
+$ mkdir repos/git-basics
+$ cd repost/git-basics
+$ pwd
+$ git init
+
+Checking current status
+$ git status
+
+Adding files
+$ git add index.html
+$ git add .
+
+Making a commit
+$ git commit -m "v1.0"
+
+Modifying files
+$ 
+
+Checking differences
+$ get diff
+diff that uncommited
+$ git diff --staged 
+
+Creating branch
+$ git branch addfonts
+
+Switching between branches
+$ git checkout addfonts
+create branch and immediately checkout
+$ git checkout -b bugFix 
+list of branches
+$ git branch
+
+Merging
+$ git merge addfonts
+
+$ git branch bugFix
+$ git commit -a -m 'update css'
+
+Managing Branches
+merge list
+$ git branch --merged
+no merge list
+$ git branch --no-merge
+delete branch
+$ git branch -d addfonts
+force delete branch
+$ git branch -D addfonts
+
+Pushing files to remote repos
+$ git remote add origin https://github.com/sames~.git
+
